@@ -1,12 +1,13 @@
 #include<SFML/Graphics.hpp>
 #include<vector>
+#include<iostream>
 #include"Snake.h"
 #include"Food.h"
 constexpr auto TILESIZE = 20.0f;
 int main() {
 	srand((unsigned)time(NULL));
 	// 初始化窗口
-	sf::RenderWindow window(sf::VideoMode(800, 600), "SFML_Snake");
+	sf::RenderWindow window(sf::VideoMode(windX, windY), "SFML_Snake");
 
 	//初始化蛇
 	Snake snake(sf::Vector2i(10, 10), TILESIZE);
@@ -46,6 +47,10 @@ int main() {
 			foods.push_back(newFood);
 
 			snake.grow();
+		}
+		if (snake.checkSelfCollision()) {
+			std::cout << "Game Over" << std::endl;
+			break;
 		}
 
 		// 渲染
