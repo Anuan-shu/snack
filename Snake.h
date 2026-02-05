@@ -21,10 +21,11 @@ public:
 		body.push_back(startPos);
 		tileSize = size;
 	};
-
+	int score = 0;
 	void handleInput();
 	void moveSnake();
 	void grow();
+	void reset(sf::Vector2i startPos);
 
 	bool checkSelfCollision() const;
 	bool checkWindCollisionLeft()const;

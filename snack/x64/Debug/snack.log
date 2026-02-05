@@ -1,14 +1,4 @@
-﻿  main.cpp
-  snake.cpp
-G:\VS\snack\snake.cpp(32,34): warning C4244: “=”: 从“float”转换到“T”，可能丢失数据
-G:\VS\snack\snake.cpp(32,34): warning C4244:         with
-G:\VS\snack\snake.cpp(32,34): warning C4244:         [
-G:\VS\snack\snake.cpp(32,34): warning C4244:             T=int
-G:\VS\snack\snake.cpp(32,34): warning C4244:         ]
-G:\VS\snack\snake.cpp(40,34): warning C4244: “=”: 从“float”转换到“T”，可能丢失数据
-G:\VS\snack\snake.cpp(40,34): warning C4244:         with
-G:\VS\snack\snake.cpp(40,34): warning C4244:         [
-G:\VS\snack\snake.cpp(40,34): warning C4244:             T=int
-G:\VS\snack\snake.cpp(40,34): warning C4244:         ]
+﻿  game.cpp
+  main.cpp
   正在生成代码...
   snack.vcxproj -> G:\VS\snack\x64\Debug\snack.exe

@@ -56,8 +56,16 @@ void Snake::draw(sf::RenderWindow& window) {
 }
 void Snake::grow() {
 	shouldGrow = true;
-
+	score += 10;
 }
+
+void Snake::reset(sf::Vector2i startPos) {
+	body.clear();
+	score = 0;
+	direction = { 0,0 };
+	body.push_back(startPos);
+}
+
 sf::Vector2i Snake::getHeadPos() const {
 	return body[0];
 }

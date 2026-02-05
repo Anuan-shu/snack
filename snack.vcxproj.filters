@@ -24,6 +24,9 @@
     <ClCompile Include="food.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Snake.h">
@@ -32,5 +35,25 @@
     <ClInclude Include="Food.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="E:\xz\仿宋_GB2312\GB2312.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="C:\WINDOWS\Fonts\BKANT.TTF">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="C:\WINDOWS\Fonts\ANTQUAB.TTF">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="C:\WINDOWS\Fonts\ANTQUABI.TTF">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="C:\WINDOWS\Fonts\ANTQUAI.TTF">
+      <Filter>资源文件</Filter>
+    </Font>
   </ItemGroup>
 </Project>
